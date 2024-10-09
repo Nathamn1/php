@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #666666;
+}
+
+.logo {
+    background-color: #f80032;
+    height: 110px;
+}
+.foto img {
+    position: relative; 
+    top: -40px;   
+    width: 180px;  
+    
+}
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    
+}
+
+.texto{
+    margin-top: 20%;
+}
+
+.texto p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.texto, img, h2{
+    display: inline-block;
+}
+
+.texto h3{
+    margin-top: 20px;
+}
+.email input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.email p {
+    margin-top:15px;
+    margin-right: 248px;
+}
+.email p::before {
+    content: "*";
+    color: red;
+}
+
+
+.email h3 {
+    margin-top: 20px;
+}
+
+.email h4::before {
+    content: "*";
+    color: red;
+}
+
+.senha input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.senha p {
+    margin-top: 10px;
+}
+
+.senha p::before {
+    content: "*"; 
+    color: red;    
+}
+.senha a{
+    margin-left: 145px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.entrar button{
+    cursor: pointer;
+    border: none;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f80032 ;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+.entrar a {
+    user-select: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.final {
+    margin-top: 30px;
+}
+
+.final a{
+    font-size: 15px;
+}
+
+.final p{
+    font-size: 15px;
+}
+.final2{
+    margin-top: 30px;
+}
+
+.final2 a{
+    font-size: 15px;
+}
+
+.final2 p{
+    font-size: 15px;
+}
+
+.montagem {
+    text-align: justify;
+}
+
+.montagem input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.montar_e button {
+    cursor: pointer;
+    border: none;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f80032 ;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+           
+}
+
+.nome input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.nome p {
+    margin-top:15px;
+    margin-right: 248px;
+}
+.nome p::before {
+    content: "*";
+    color: red;
+}
